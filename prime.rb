@@ -3,4 +3,6 @@ def prime?(n)
   
   range = (0..n).to_a
   
+  rage
+  
 end  
