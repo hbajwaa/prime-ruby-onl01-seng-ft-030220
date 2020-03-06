@@ -1,8 +1,10 @@
 def prime?(n)
   return false if n < 2
   
-  range = (0..n).to_a
+  range = (2..n).to_a
+  range.each do |i|
+    return false if n % i == 0
+  end  
   
-  rage
-  
+  return true
 end  
